@@ -15,8 +15,7 @@
 *.csv
  
 # WP dirs.
-wp-admin/*
-wp-includes/*
+
 wp-snapshots/*
  
 # Ignore node dependency directories.
