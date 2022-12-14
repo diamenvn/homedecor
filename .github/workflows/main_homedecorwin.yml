@@ -31,11 +31,14 @@ jobs:
         if: steps.check_files.outputs.files_exists == 'true'
         run: composer validate --no-check-publish && composer install --prefer-dist --no-progress
 
+      - name: Zip artifact to upload 
+        run: zip -r php-app.zip .
+
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
           name: php-app
-          path: .
+          path: ./php-app.zip
 
   deploy:
     runs-on: ubuntu-latest
@@ -57,4 +60,4 @@ jobs:
           app-name: 'homedecorwin'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FCF3FEA22C3B415480CB617EF7BB6627 }}
-          package: .
+          package: ./php-app.zip

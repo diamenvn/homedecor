@@ -20,19 +20,19 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'kyc' );
 
 /** Database username */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', 'root' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         'i-}Q_s@RA56*Dox$VRwuS>w+,@R]!O18i8QJ#5{ Buv1p$K~|X?1|ZT(*sKay/%R' );
+define( 'SECURE_AUTH_KEY',  'q4YB[Wk7C]DVce7x8%WSmwxk}CG4C7Jbyrrf^K`QQo66Cu=VJU|MBOASk4[a7z!w' );
+define( 'LOGGED_IN_KEY',    '}F<3[Y)XeZ0XGS3d8pM21I:]2u?u+HmuEI<vV7-aO>akelt3n<yeKo0AB[pWh2[q' );
+define( 'NONCE_KEY',        'L[_QBm@s/:H.Z[mww~5C=_.&B(p?Cm9UcVF8-#&^J U1bcQ@YTYy|dp9T{niIC44' );
+define( 'AUTH_SALT',        '>yY2-HH]?x/BR4:zwMerR C)`fKv+NbL^fA-ju=tUKBjW!Sq>n$A+EJukL>z;;_-' );
+define( 'SECURE_AUTH_SALT', '5=)6S40%mb^e]xFtDU(}G2~`7{PECy4B*{E)0Z0,Xof0k M^%^]ZRzpC{wk:s##G' );
+define( 'LOGGED_IN_SALT',   'd,DIS:RZ>XL#m%HM|t:~sYC=-M$N9}EC3>=Z6<2!W>aSJH5S9!.2`JybSz;Hl%tL' );
+define( 'NONCE_SALT',       'wJ dQ@{;GGnOe?j=$W5RFY]=u&9>I6,tui(1a)Bru7M$^ntfJj12IBhLeHJ|<2(}' );
 
 /**#@-*/
 
