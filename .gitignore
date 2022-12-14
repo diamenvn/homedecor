@@ -1,6 +1,5 @@
 # Configuration.
-/.htaccess
-/wp-config.php
+
  
 # Sitemap files.
 /sitemap.xml
