@@ -56,5 +56,5 @@ jobs:
         with:
           app-name: 'decorwin'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_ED96FC46B0E84E109A2CA10D6DA2EFD4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DA87A84625EE47BFBD256856864BA873 }}
           package: .
