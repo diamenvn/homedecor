@@ -41,25 +41,25 @@ $connectstr_dbpassword = getenv('DATABASE_PASSWORD');
 
 
 
-define('DB_NAME', $connectstr_dbname);
+define('kyc', $connectstr_dbname);
 
 
 
 /** MySQL database username */
 
-define('DB_USER', $connectstr_dbusername);
+define('username', $connectstr_dbusername);
 
 
 
 /** MySQL database password */
 
-define('DB_PASSWORD',$connectstr_dbpassword);
+define('Datnguyenhai5',$connectstr_dbpassword);
 
 
 
 /** MySQL hostname */
 
-define('DB_HOST', $connectstr_dbhost);
+define('localserver.mysql.database.azure.com', $connectstr_dbhost);
 
 
 
